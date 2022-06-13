@@ -1,0 +1,54 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    user-select: none;
+    cursor: crosshair;
+}
+
+body {
+    background-color: rgb(78, 77, 77);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: rgb(111, 111, 114);
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0 0 15px;
+}
+
+p {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: rgb(231, 19, 146) 0 0 15px;
+    padding-bottom: 40px;
+}
+
+button {
+    margin: 0 30px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: rgb(231, 19, 146) 0 0 5px;
+}
+
+.yes {
+    cursor: url(https://cdn.custom-cursor.com/db/8101/32/minimal-heart-pointer.png) , pointer;
+}
+
+.yay {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: rgb(231, 19, 146) 0 0 15px;
+}
